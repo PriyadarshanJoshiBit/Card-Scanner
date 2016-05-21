@@ -2,7 +2,6 @@
 //  CardLayout.h
 //  icc
 //
-//  Created by Kevin M Free on 12/14/15.
 //  Copyright © 2015 CTB Consulting. All rights reserved.
 //
 
@@ -17,6 +16,9 @@
 @property (nonatomic, strong) NSMutableArray *CardDefinitions;
 
 -(id)initCardLayouts;
+-(NSString *)serializeCardDefinition:(CardDefinition *) cd;
+-(void)printCardDefinitions;
+-(void)deployCardDefinitions:(BOOL)overwrite;
 
 
 
@@ -24,73 +26,101 @@
 
 @implementation CardLayouts
 
--(id)initCardLayouts
-{
-  if(self = [super init])
-  {
+-(id)initCardLayouts  {
+  if(self = [super init])  {
     
-    //TODO: Add these defs to a file...
+    
     self.CardDefinitions = [[NSMutableArray alloc] init];
+ 
+    [self deployCardDefinitions:NO];
     
-    CardDefinition *vclpV = [[CardDefinition alloc]initCardDefinition: @"Venture Card Laser Personalization Vertical" : YES : 16 :
-                             CGRectMake(20, 78, 70, 23) :CGRectMake(20, 116, 70, 23) :CGRectMake(20, 153, 70, 23) : CGRectMake(20, 192, 70, 23) :
-                             CGRectMake(54,244,34,16):
-                             CGRectMake(42, 220, 51, 21)];
-    
-    /*
-     CardDefinition *vclpV = [[CardDefinition alloc]initCardDefinition: @"Venture Card Laser Personalization Vertical" : YES : 16 :
-     CGRectMake(18, 74, 71, 27) :CGRectMake(21, 114, 70, 25) :CGRectMake(19, 153, 73, 23) : CGRectMake(18, 190, 76, 27) :
-     CGRectMake(54,244,34,16):
-     CGRectMake(42, 220, 51, 21)];*/
-    
-    CardDefinition *vclpH = [[CardDefinition alloc]initCardDefinition: @"Venture Card Laser Personalization Horizontal" : NO : 16 :
-    CGRectMake(16, 200, 50, 20) :CGRectMake(62, 200, 50, 20) :CGRectMake(112, 200, 50, 20): CGRectMake(160, 200, 50, 20) :
-    CGRectMake(0,0,0,0):
-    CGRectMake(84, 241, 49, 18)];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *jsonPath = [documentsDirectory stringByAppendingPathComponent:@"CardDefinitions.json"];
 
     
-    CardDefinition *qufpH = [[CardDefinition alloc]initCardDefinition: @"Quicksilver Ultragraphics flat print Horizontal" : NO : 16 :
-    CGRectMake(16, 197, 50, 20) : CGRectMake(70, 197, 50, 20) :CGRectMake(122, 197, 50, 20): CGRectMake(175, 197, 50, 20) :
-    CGRectMake(0, 0, 0, 0) :
-    CGRectMake(242,235,45,19)];
-    
-    CardDefinition *cbgcbp = [[CardDefinition alloc]initCardDefinition: @"CBGC Buy Powercard" : NO : 16 :
-                             CGRectMake(15, 256, 45, 20) : CGRectMake(60, 256, 45, 20) :CGRectMake(105, 256, 45, 20): CGRectMake(150, 256, 45, 20) :
-                             CGRectMake(0, 0, 0, 0) :
-                             CGRectMake(0,0,0,0)];
-    cbgcbp.RotateLeft = YES;
-    
-    
-    CardDefinition *lacvn = [[CardDefinition alloc]initCardDefinition: @"laCaixa Visa New" : NO : 16 :
-                              CGRectMake(45, 155, 75, 25) : CGRectMake(115, 155, 75, 25) :CGRectMake(195, 155, 75, 25): CGRectMake(275, 155, 75, 25) :
-                              CGRectMake(0, 0, 0, 0) :
-                              CGRectMake(0,0,0,0)];
-    
-    CardDefinition *coapts = [[CardDefinition alloc]initCardDefinition: @"Capital One All Point 360" : NO : 16 :
-                             CGRectMake(12, 174, 65, 24) : CGRectMake(75, 174, 65, 24) :CGRectMake(145, 174, 65, 24): CGRectMake(210, 174, 65, 24) :
-                             CGRectMake(0, 0, 0, 0) :
-                             CGRectMake(0,0,0,0)];
-    
-    CardDefinition *cmcwe = [[CardDefinition alloc]initCardDefinition: @"CMC World Elite" : NO : 16 :
-                              CGRectMake(18, 108, 56, 20) : CGRectMake(74, 108, 56, 20) :CGRectMake(134, 174, 56, 20): CGRectMake(194, 174, 56, 20) :
-                              CGRectMake(0, 0, 0, 0) :
-                              CGRectMake(0,0,0,0)];
-
-
-    
-    
-    
-   
-    [self.CardDefinitions addObject:vclpV];
-    [self.CardDefinitions addObject:vclpH];
-    [self.CardDefinitions addObject:qufpH];
-    [self.CardDefinitions addObject:cbgcbp];
-    [self.CardDefinitions addObject:lacvn];
-    [self.CardDefinitions addObject:coapts];
-    [self.CardDefinitions addObject:cmcwe];
-
+    NSString * jsonData = [[NSString alloc] initWithContentsOfFile:jsonPath encoding:NSUTF8StringEncoding error:NULL];
+    if (!jsonData) {
+      NSLog(@"Definitions File could not be read!");
+    }
+    NSLog(jsonData);
+    NSError * error;
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:[jsonData dataUsingEncoding:NSUTF8StringEncoding] options:0 error:&error];
+    for (NSString * key in [json allKeys])  {
+      
+        NSString * rect0val = [[json valueForKey:key] valueForKey:@"Rect0"];
+        CGRect rect0 = CGRectFromString(rect0val);
+        NSString * rect1val = [[json valueForKey:key] valueForKey:@"Rect1"];
+        CGRect rect1 = CGRectFromString(rect1val);
+        NSString * rect2val = [[json valueForKey:key] valueForKey:@"Rect2"];
+        CGRect rect2 = CGRectFromString(rect2val);
+        NSString * rect3val = [[json valueForKey:key] valueForKey:@"Rect3"];
+        CGRect rect3 = CGRectFromString(rect3val);
+        CardDefinition * cd = [[CardDefinition alloc] initCardDefinition: key : YES : 16 :
+                   rect0:
+                   rect1:
+                   rect2:
+                   rect3:
+                   CGRectMake(0, 0, 0, 0):
+                   CGRectMake(0, 0, 0, 0)];
+      [self.CardDefinitions addObject:cd];
+    }
   }
   return self;
+}
+
+-(void) deployCardDefinitions: (BOOL) overwrite {
+  NSFileManager *fileManager = [NSFileManager defaultManager];
+  NSError *error;
+  NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+  NSString *documentsDirectory = [paths objectAtIndex:0];
+  
+  NSString *jsonPath = [documentsDirectory stringByAppendingPathComponent:@"CardDefinitions.json"];
+  
+  if ([fileManager fileExistsAtPath:jsonPath] == overwrite) {
+    NSString *resourcePath = [[NSBundle mainBundle] pathForResource:@"CardDefinitions" ofType:@"json"];
+    [fileManager copyItemAtPath:resourcePath toPath:jsonPath error:&error];
+    NSLog(@"Deployed Card Definitions!");
+  }
+  else {
+    NSLog(@"Card Definitions Found!");
+  }
+}
+
+-(void) printCardDefinitions  {
+  NSMutableArray * defs = [NSMutableArray new];
+  NSMutableArray * vals = [NSMutableArray new];
+  for(CardDefinition * cd in self.CardDefinitions) {
+    [defs addObject:cd.Name];
+    [vals addObject:[self serializeCardDefinition:cd]];
+    
+  }
+  NSDictionary *jsonDictionary = [NSDictionary dictionaryWithObjects:vals forKeys:defs];
+  NSError * writeError = nil;
+  NSData *jsonData = [NSJSONSerialization dataWithJSONObject:jsonDictionary options:NSJSONWritingPrettyPrinted error:&writeError];
+  NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+   NSLog(@"JSON Output: %@", jsonString);
+}
+
+-(NSString*)serializeCardDefinition: (CardDefinition *) cd {
+  
+  NSMutableArray * keys = [NSMutableArray new];
+  
+  NSMutableArray * values = [NSMutableArray new];
+  [keys addObject:@"Rect0"];
+  [values addObject:NSStringFromCGRect(cd.CCNCoordinatesR0)];
+  [keys addObject:@"Rect1"];
+  [values addObject:NSStringFromCGRect(cd.CCNCoordinatesR1)];
+  [keys addObject:@"Rect2"];
+  [values addObject:NSStringFromCGRect(cd.CCNCoordinatesR2)];
+  [keys addObject:@"Rect3"];
+  [values addObject:NSStringFromCGRect(cd.CCNCoordinatesR3)];
+
+  NSDictionary *jsonDictionary = [NSDictionary dictionaryWithObjects:values forKeys:keys];
+  NSError * writeError = nil;
+  NSData *jsonData = [NSJSONSerialization dataWithJSONObject:jsonDictionary options:NSJSONWritingPrettyPrinted error:&writeError];
+  NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+  return jsonString;
 }
 
 

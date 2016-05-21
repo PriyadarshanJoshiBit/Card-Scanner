@@ -2,7 +2,6 @@
 //  CardDefinition.h
 //  OCRE
 //
-//  Created by Kevin M Free on 12/1/15.
 //  Copyright © 2015 CTB Consulting. All rights reserved.
 //
 
@@ -61,10 +60,8 @@
 @synthesize CCNCoordinatesR3;
 @synthesize ExpiryCoordinates;
 
--(id)initCardDefinition:(NSString*) name : (BOOL) isVertical : (int) digits :(CGRect) ccnCoordinatesR0 :(CGRect) ccnCoordinatesR1 :(CGRect) ccnCoordinatesR2 :(CGRect) ccnCoordinatesR3 :(CGRect) cscCoordinates :(CGRect) expiryCoordinates;
-{
-  if(self = [super init])
-  {
+-(id)initCardDefinition:(NSString*) name : (BOOL) isVertical : (int) digits :(CGRect) ccnCoordinatesR0 :(CGRect) ccnCoordinatesR1 :(CGRect) ccnCoordinatesR2 :(CGRect) ccnCoordinatesR3 :(CGRect) cscCoordinates :(CGRect) expiryCoordinates;  {
+  if(self = [super init])  {
     self.Name = name;
     self.IsVertical = isVertical;
     self.Digits = digits;
@@ -78,12 +75,6 @@
   return self;
 }
 
--(void)test
-{
-  NSLog(@"Test...");
-}
-
 @end
-
 
 #endif /* CardDefinition_h */
