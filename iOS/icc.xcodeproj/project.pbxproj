@@ -120,6 +120,9 @@
 		3ED00DA81BD8D78200FD2DB4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED00DA71BD8D78200FD2DB4 /* Accelerate.framework */; };
 		3ED8A878197DBDAE00069761 /* CardIOUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8A874197DBD5F00069761 /* CardIOUtilities.m */; };
 		3EE558981A5B4BC60094929A /* TestGeneratedModels.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9F6DF1A23CDD800BD07F8 /* TestGeneratedModels.mm */; };
+		4358E6F91BFBBCBB007E07C3 /* CardIOCardholderNameTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */; };
+		4358E6FA1BFBBCCC007E07C3 /* CardIOCardholderNameTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4358E6F61BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.h */; };
+		438FDD141BFD1BF3007DC6CB /* CardIOCardholderNameTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */; };
 		55CD7FA818EF777F00BB381A /* iccChoicesSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CD7FA718EF777F00BB381A /* iccChoicesSelectViewController.m */; };
 		92122C301B8C3865004D705E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92122C2F1B8C3865004D705E /* OpenGLES.framework */; };
 		92122C361B8C38E9004D705E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92263E311B84283D003FE678 /* UIKit.framework */; };
@@ -185,7 +188,7 @@
 		92263E0C1B83AE1F003FE678 /* CardIOTransitionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F66D66146456880001F15F /* CardIOTransitionView.h */; };
 		92263E0D1B83AE1F003FE678 /* CardIOTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F66D67146456880001F15F /* CardIOTransitionView.m */; };
 		92263E0E1B83AE29003FE678 /* CardIOIplImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 030A71411214AC9700BE07FB /* CardIOIplImage.mm */; };
-		92263E0F1B83AE6E003FE678 /* dmz_all.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0378AE18158C01CA00545AAA /* dmz_all.cpp */; };
+		92263E0F1B83AE6E003FE678 /* dmz_all.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0378AE18158C01CA00545AAA /* dmz_all.cpp */; settings = {COMPILER_FLAGS = "-O3 -fslp-vectorize-aggressive"; }; };
 		92263E111B83AEA7003FE678 /* mz_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84979985159E5E0500527FF5 /* mz_ios.mm */; };
 		92263E131B83AF13003FE678 /* CardIOConfigurableTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0307360613416B0600663C26 /* CardIOConfigurableTextFieldDelegate.m */; };
 		92263E151B83AF13003FE678 /* CardIOCVVTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030736121343F53A00663C26 /* CardIOCVVTextFieldDelegate.m */; };
@@ -212,16 +215,12 @@
 		92263E301B83B9B5003FE678 /* mz_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 849799A6159E5EF400527FF5 /* mz_ios.h */; };
 		929AD7811B8CA8FD00F6D18E /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E587F8A18C7E165000C1D3A /* CardIODetectionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		929AD7821B8CA8FD00F6D18E /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED8A876197DBDA900069761 /* CardIOUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F2BE3DC1D4D3BD00002B82D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1AA48D1C1A2A68008226B1 /* libc++.tbd */; };
-		9FA4734C1D3C0011004A92D2 /* ocre.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA4734B1D3C0011004A92D2 /* ocre.h */; };
-		9FA4734E1D3C013B004A92D2 /* ocre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4734D1D3C013B004A92D2 /* ocre.cpp */; };
-		9FA4734F1D3C013B004A92D2 /* ocre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4734D1D3C013B004A92D2 /* ocre.cpp */; };
-		9FDF78261D441F4F00FE50E2 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDF78141D441F4E00FE50E2 /* libtesseract_all.a */; };
-		9FDF78371D44271500FE50E2 /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDF78131D441F4E00FE50E2 /* liblept.a */; };
-		9FE50C401D4E94E20039D450 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9FE50C3F1D4E94E20039D450 /* tessdata */; };
-		9FE50C411D4E94E20039D450 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9FE50C3F1D4E94E20039D450 /* tessdata */; };
-		9FE5D1561C4C50D100AE32EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE5D1551C4C50D100AE32EB /* Images.xcassets */; };
-		9FE8EC8E1C8A6500004E9876 /* classes in Resources */ = {isa = PBXBuildFile; fileRef = 9FE8EC8D1C8A6500004E9876 /* classes */; };
+		9F7554391D5C152B004A7296 /* ocre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F7554371D5C152B004A7296 /* ocre.cpp */; };
+		9F75543A1D5C152B004A7296 /* ocre.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7554381D5C152B004A7296 /* ocre.h */; };
+		9F75543C1D5C15AB004A7296 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9F75543B1D5C15AB004A7296 /* tessdata */; };
+		9F75543D1D5C15AB004A7296 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9F75543B1D5C15AB004A7296 /* tessdata */; };
+		9F7554401D5C16D1004A7296 /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F75543E1D5C16D1004A7296 /* liblept.a */; };
+		9F7554411D5C16D1004A7296 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F75543F1D5C16D1004A7296 /* libtesseract_all.a */; };
 		A50A54C51BE306DB00B669FB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED00DA21BD8D60900FD2DB4 /* UIImage+ImageEffects.m */; };
 		A50A54C61BE3094500B669FB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED00DA71BD8D78200FD2DB4 /* Accelerate.framework */; };
 		A50A54C71BE3095000B669FB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED00DA71BD8D78200FD2DB4 /* Accelerate.framework */; };
@@ -764,6 +763,8 @@
 		3ED9F6E21A23CF3200BD07F8 /* expiry_seg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = expiry_seg.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		3ED9F6E31A23CF3200BD07F8 /* expiry_seg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = expiry_seg.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		3ED9F6E41A23CF3200BD07F8 /* expiry_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = expiry_types.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4358E6F61BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCardholderNameTextFieldDelegate.h; sourceTree = "<group>"; };
+		4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardIOCardholderNameTextFieldDelegate.m; sourceTree = "<group>"; };
 		5528BBBE16F7B1CA005D5011 /* simulated_camera_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simulated_camera_1.png; sourceTree = "<group>"; };
 		5528BBBF16F7B1CA005D5011 /* simulated_camera_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simulated_camera_2.png; sourceTree = "<group>"; };
 		5528BBC016F7B1CA005D5011 /* simulated_camera_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simulated_camera_3.png; sourceTree = "<group>"; };
@@ -800,41 +801,11 @@
 		92122C421B8C39D0004D705E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		92263D701B83ACBB003FE678 /* CardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92263E311B84283D003FE678 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9F1AA48B1C1A25F6008226B1 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = "../../Library/Developer/Xcode/DerivedData/Tesseract-OCR-iOS-cgwjpxmkvlmpwfcihbzvyvidzqwj/Build/Products/Debug-iphoneos/TesseractOCR.framework"; sourceTree = "<group>"; };
-		9F1AA48D1C1A2A68008226B1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		9F2BE3D61D4D372F0002B82D /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = opencv_device/lib/libopencv_core.a; sourceTree = "<group>"; };
-		9F2BE3D71D4D372F0002B82D /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = opencv_device/lib/libopencv_imgproc.a; sourceTree = "<group>"; };
-		9F2BE3DA1D4D3BAF0002B82D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
-		9FA4734B1D3C0011004A92D2 /* ocre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocre.h; sourceTree = "<group>"; };
-		9FA4734D1D3C013B004A92D2 /* ocre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ocre.cpp; sourceTree = "<group>"; };
-		9FA8D1A81D3C35B3009015EB /* libtesseract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract.a; path = "../Tesseract-OCR-iOS-master-2/TesseractOCR/lib/libtesseract.a"; sourceTree = "<group>"; };
-		9FA8D1AA1D3C3B9E009015EB /* TesseractOCR */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TesseractOCR; path = "../Tesseract-OCR-iOS-master-2/TesseractOCR"; sourceTree = "<group>"; };
-		9FA8D1AC1D3C3BAD009015EB /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "../Tesseract-OCR-iOS-master-2/TesseractOCR/lib/libjpeg.a"; sourceTree = "<group>"; };
-		9FA8D1AD1D3C3BAD009015EB /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblept.a; path = "../Tesseract-OCR-iOS-master-2/TesseractOCR/lib/liblept.a"; sourceTree = "<group>"; };
-		9FA8D1AE1D3C3BAD009015EB /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = "../Tesseract-OCR-iOS-master-2/TesseractOCR/lib/libpng.a"; sourceTree = "<group>"; };
-		9FA8D1AF1D3C3BAD009015EB /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiff.a; path = "../Tesseract-OCR-iOS-master-2/TesseractOCR/lib/libtiff.a"; sourceTree = "<group>"; };
-		9FA8D1B41D3C3C83009015EB /* libTesseractOCRiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTesseractOCRiOS.a; path = "/Users/KMF/Downloads/Tesseract-OCR-iOS-master-2/Pods/../build/Debug-iphoneos/libTesseractOCRiOS.a"; sourceTree = "<absolute>"; };
-		9FDF78131D441F4E00FE50E2 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblept.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/liblept.a"; sourceTree = "<group>"; };
-		9FDF78141D441F4E00FE50E2 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_all.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_all.a"; sourceTree = "<group>"; };
-		9FDF78151D441F4E00FE50E2 /* libtesseract_api.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_api.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_api.a"; sourceTree = "<group>"; };
-		9FDF78161D441F4E00FE50E2 /* libtesseract_ccstruct.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_ccstruct.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_ccstruct.a"; sourceTree = "<group>"; };
-		9FDF78171D441F4E00FE50E2 /* libtesseract_ccutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_ccutil.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_ccutil.a"; sourceTree = "<group>"; };
-		9FDF78181D441F4F00FE50E2 /* libtesseract_classify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_classify.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_classify.a"; sourceTree = "<group>"; };
-		9FDF78191D441F4F00FE50E2 /* libtesseract_cube.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_cube.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_cube.a"; sourceTree = "<group>"; };
-		9FDF781A1D441F4F00FE50E2 /* libtesseract_cutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_cutil.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_cutil.a"; sourceTree = "<group>"; };
-		9FDF781B1D441F4F00FE50E2 /* libtesseract_dict.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_dict.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_dict.a"; sourceTree = "<group>"; };
-		9FDF781C1D441F4F00FE50E2 /* libtesseract_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_image.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_image.a"; sourceTree = "<group>"; };
-		9FDF781D1D441F4F00FE50E2 /* libtesseract_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_main.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_main.a"; sourceTree = "<group>"; };
-		9FDF781E1D441F4F00FE50E2 /* libtesseract_neural.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_neural.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_neural.a"; sourceTree = "<group>"; };
-		9FDF781F1D441F4F00FE50E2 /* libtesseract_tessopt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_tessopt.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_tessopt.a"; sourceTree = "<group>"; };
-		9FDF78201D441F4F00FE50E2 /* libtesseract_textord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_textord.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_textord.a"; sourceTree = "<group>"; };
-		9FDF78211D441F4F00FE50E2 /* libtesseract_training.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_training.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_training.a"; sourceTree = "<group>"; };
-		9FDF78221D441F4F00FE50E2 /* libtesseract_viewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_viewer.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_viewer.a"; sourceTree = "<group>"; };
-		9FDF78231D441F4F00FE50E2 /* libtesseract_wordrec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_wordrec.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract_wordrec.a"; sourceTree = "<group>"; };
-		9FDF78241D441F4F00FE50E2 /* libtesseract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract.a; path = "../../Desktop/compile-tesseract-master/dependencies/lib/libtesseract.a"; sourceTree = "<group>"; };
-		9FE50C3F1D4E94E20039D450 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = Classes/tessdata; sourceTree = SOURCE_ROOT; };
-		9FE5D1551C4C50D100AE32EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = icc/Images.xcassets; sourceTree = "<group>"; };
-		9FE8EC8D1C8A6500004E9876 /* classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = classes; path = "/Users/KMF/Downloads/card.io-iOS-source-master 3/Classes/classes"; sourceTree = "<absolute>"; };
+		9F7554371D5C152B004A7296 /* ocre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ocre.cpp; sourceTree = "<group>"; };
+		9F7554381D5C152B004A7296 /* ocre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocre.h; sourceTree = "<group>"; };
+		9F75543B1D5C15AB004A7296 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = SOURCE_ROOT; };
+		9F75543E1D5C16D1004A7296 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblept.a; path = tess_lib/liblept.a; sourceTree = "<group>"; };
+		9F75543F1D5C16D1004A7296 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_all.a; path = tess_lib/libtesseract_all.a; sourceTree = "<group>"; };
 		A50A54AD1BE2F7A800B669FB /* AdHoc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = AdHoc.xcconfig; path = build_configs/AdHoc.xcconfig; sourceTree = "<group>"; };
 		A50A54AE1BE2F7A800B669FB /* CardIO_Static_Library_AdHoc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = CardIO_Static_Library_AdHoc.xcconfig; path = build_configs/CardIO_Static_Library_AdHoc.xcconfig; sourceTree = "<group>"; };
 		A50A54AF1BE2F7A800B669FB /* CardIO_Static_Library_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = CardIO_Static_Library_Debug.xcconfig; path = build_configs/CardIO_Static_Library_Debug.xcconfig; sourceTree = "<group>"; };
@@ -932,9 +903,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2BE3DC1D4D3BD00002B82D /* libc++.tbd in Frameworks */,
-				9FDF78371D44271500FE50E2 /* liblept.a in Frameworks */,
-				9FDF78261D441F4F00FE50E2 /* libtesseract_all.a in Frameworks */,
+				9F7554401D5C16D1004A7296 /* liblept.a in Frameworks */,
+				9F7554411D5C16D1004A7296 /* libtesseract_all.a in Frameworks */,
 				A50A54C61BE3094500B669FB /* Accelerate.framework in Frameworks */,
 				92122C431B8C39D0004D705E /* CoreVideo.framework in Frameworks */,
 				92122C411B8C3986004D705E /* CoreGraphics.framework in Frameworks */,
@@ -1155,6 +1125,8 @@
 				0307360C1343C0F300663C26 /* CardIONumbersTextFieldDelegate.m */,
 				3ED37A1017A89BA500A09325 /* CardIOPostalCodeTextFieldDelegate.h */,
 				3ED37A1117A89BA500A09325 /* CardIOPostalCodeTextFieldDelegate.m */,
+				4358E6F61BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.h */,
+				4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */,
 			);
 			name = "Text field";
 			sourceTree = "<group>";
@@ -1162,7 +1134,9 @@
 		0346CEDE157D87F500F99613 /* scan */ = {
 			isa = PBXGroup;
 			children = (
-				9FE50C3F1D4E94E20039D450 /* tessdata */,
+				9F75543B1D5C15AB004A7296 /* tessdata */,
+				9F7554371D5C152B004A7296 /* ocre.cpp */,
+				9F7554381D5C152B004A7296 /* ocre.h */,
 				3ED9F6E11A23CF3200BD07F8 /* expiry_categorize.h */,
 				3ED9F6E01A23CF3200BD07F8 /* expiry_categorize.cpp */,
 				3ED9F6E31A23CF3200BD07F8 /* expiry_seg.h */,
@@ -1180,8 +1154,6 @@
 				3E362802173887CB00F8D17F /* scan.cpp */,
 				84FC461C15AF6FD7006C82D9 /* scan_analytics.h */,
 				84FC461E15AF7015006C82D9 /* scan_analytics.cpp */,
-				9FA4734B1D3C0011004A92D2 /* ocre.h */,
-				9FA4734D1D3C013B004A92D2 /* ocre.cpp */,
 			);
 			path = scan;
 			sourceTree = "<group>";
@@ -1814,7 +1786,6 @@
 		080E96DDFE201D6D7F000001 /* Scan */ = {
 			isa = PBXGroup;
 			children = (
-				9F1AA45B1C17B216008226B1 /* OCRE */,
 				849799A5159E5E4D00527FF5 /* CardIOGPU */,
 				036DD65E12663A5200EB719A /* Models */,
 				036DD2DF125E48BB00EB719A /* Views */,
@@ -1841,7 +1812,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				9FE5D1551C4C50D100AE32EB /* Images.xcassets */,
 				030735D6134148FE00663C26 /* Public API */,
 				0305C57D1345258200A315B7 /* Core */,
 				080E96DDFE201D6D7F000001 /* Scan */,
@@ -1860,36 +1830,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F2BE3DA1D4D3BAF0002B82D /* libstdc++.6.0.9.tbd */,
-				9F2BE3D61D4D372F0002B82D /* libopencv_core.a */,
-				9F2BE3D71D4D372F0002B82D /* libopencv_imgproc.a */,
-				9FDF78131D441F4E00FE50E2 /* liblept.a */,
-				9FDF78141D441F4E00FE50E2 /* libtesseract_all.a */,
-				9FDF78151D441F4E00FE50E2 /* libtesseract_api.a */,
-				9FDF78161D441F4E00FE50E2 /* libtesseract_ccstruct.a */,
-				9FDF78171D441F4E00FE50E2 /* libtesseract_ccutil.a */,
-				9FDF78181D441F4F00FE50E2 /* libtesseract_classify.a */,
-				9FDF78191D441F4F00FE50E2 /* libtesseract_cube.a */,
-				9FDF781A1D441F4F00FE50E2 /* libtesseract_cutil.a */,
-				9FDF781B1D441F4F00FE50E2 /* libtesseract_dict.a */,
-				9FDF781C1D441F4F00FE50E2 /* libtesseract_image.a */,
-				9FDF781D1D441F4F00FE50E2 /* libtesseract_main.a */,
-				9FDF781E1D441F4F00FE50E2 /* libtesseract_neural.a */,
-				9FDF781F1D441F4F00FE50E2 /* libtesseract_tessopt.a */,
-				9FDF78201D441F4F00FE50E2 /* libtesseract_textord.a */,
-				9FDF78211D441F4F00FE50E2 /* libtesseract_training.a */,
-				9FDF78221D441F4F00FE50E2 /* libtesseract_viewer.a */,
-				9FDF78231D441F4F00FE50E2 /* libtesseract_wordrec.a */,
-				9FDF78241D441F4F00FE50E2 /* libtesseract.a */,
-				9FA8D1B41D3C3C83009015EB /* libTesseractOCRiOS.a */,
-				9FA8D1AC1D3C3BAD009015EB /* libjpeg.a */,
-				9FA8D1AD1D3C3BAD009015EB /* liblept.a */,
-				9FA8D1AE1D3C3BAD009015EB /* libpng.a */,
-				9FA8D1AF1D3C3BAD009015EB /* libtiff.a */,
-				9FA8D1AA1D3C3B9E009015EB /* TesseractOCR */,
-				9FA8D1A81D3C35B3009015EB /* libtesseract.a */,
-				9F1AA48D1C1A2A68008226B1 /* libc++.tbd */,
-				9F1AA48B1C1A25F6008226B1 /* TesseractOCR.framework */,
+				9F75543E1D5C16D1004A7296 /* liblept.a */,
+				9F75543F1D5C16D1004A7296 /* libtesseract_all.a */,
 				92122C421B8C39D0004D705E /* CoreVideo.framework */,
 				92122C3F1B8C3976004D705E /* Security.framework */,
 				92122C3C1B8C395F004D705E /* QuartzCore.framework */,
@@ -1988,21 +1930,6 @@
 				84979991159E5E3C00527FF5 /* CardIOGPUTransformFilter.m */,
 			);
 			name = CardIOGPU;
-			sourceTree = "<group>";
-		};
-		9F1AA45B1C17B216008226B1 /* OCRE */ = {
-			isa = PBXGroup;
-			children = (
-				9FE8EC911C8A694B004E9876 /* classes */,
-			);
-			name = OCRE;
-			sourceTree = "<group>";
-		};
-		9FE8EC911C8A694B004E9876 /* classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = classes;
 			sourceTree = "<group>";
 		};
 		A50A54AC1BE2F79600B669FB /* Build Configurations */ = {
@@ -2104,6 +2031,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F75543A1D5C152B004A7296 /* ocre.h in Headers */,
 				929AD7811B8CA8FD00F6D18E /* CardIODetectionMode.h in Headers */,
 				929AD7821B8CA8FD00F6D18E /* CardIOUtilities.h in Headers */,
 				92263DCE1B83AD65003FE678 /* CardIO.h in Headers */,
@@ -2112,7 +2040,7 @@
 				92263DCF1B83AD6B003FE678 /* CardIOCreditCardInfo.h in Headers */,
 				92263DD31B83AD89003FE678 /* CardIOPaymentViewControllerDelegate.h in Headers */,
 				92263DD11B83AD78003FE678 /* CardIOViewDelegate.h in Headers */,
-				9FA4734C1D3C0011004A92D2 /* ocre.h in Headers */,
+				4358E6FA1BFBBCCC007E07C3 /* CardIOCardholderNameTextFieldDelegate.h in Headers */,
 				A50A54D41BE30AB300B669FB /* UIImage+ImageEffects.h in Headers */,
 				92263DD01B83AD73003FE678 /* CardIOView.h in Headers */,
 				92263DEC1B83AE03003FE678 /* CardIOResource.h in Headers */,
@@ -2258,9 +2186,6 @@
 					92263D6F1B83ACBB003FE678 = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					A553B6E51BE32273006DF551 = {
-						DevelopmentTeam = QAPMD985M5;
-					};
 				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "icc" */;
@@ -2335,8 +2260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE8EC8E1C8A6500004E9876 /* classes in Resources */,
-				9FE50C411D4E94E20039D450 /* tessdata in Resources */,
+				9F75543D1D5C15AB004A7296 /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2346,14 +2270,12 @@
 			files = (
 				A553B6E91BE32273006DF551 /* MainWindow.xib in Resources */,
 				A553B6EA1BE32273006DF551 /* RootViewController.xib in Resources */,
-				9FE50C401D4E94E20039D450 /* tessdata in Resources */,
 				A553B6EB1BE32273006DF551 /* green_button@2x.png in Resources */,
 				A553B6EC1BE32273006DF551 /* green_button.png in Resources */,
 				A553B6ED1BE32273006DF551 /* red_button@2x.png in Resources */,
 				A553B6EE1BE32273006DF551 /* AdHocEntitlements.plist in Resources */,
 				A553B6EF1BE32273006DF551 /* red_button.png in Resources */,
 				A553B6F01BE32273006DF551 /* yellow_button.png in Resources */,
-				9FE5D1561C4C50D100AE32EB /* Images.xcassets in Resources */,
 				A553B6F11BE32273006DF551 /* MainWindow~iPad.xib in Resources */,
 				A553B6F21BE32273006DF551 /* yellow_button@2x.png in Resources */,
 				A553B6F31BE32273006DF551 /* yak_icon@2x.png in Resources */,
@@ -2361,6 +2283,7 @@
 				A553B6F51BE32273006DF551 /* yak_icon~ipad.png in Resources */,
 				A553B6F61BE32273006DF551 /* card_io_logo_black.png in Resources */,
 				A553B6F71BE32273006DF551 /* RootViewController~ipad.xib in Resources */,
+				9F75543C1D5C15AB004A7296 /* tessdata in Resources */,
 				A553B6F81BE32273006DF551 /* Default-568h@2x.png in Resources */,
 				A553B6F91BE32273006DF551 /* Default.png in Resources */,
 				A553B6FA1BE32273006DF551 /* Default@2x.png in Resources */,
@@ -2460,6 +2383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438FDD141BFD1BF3007DC6CB /* CardIOCardholderNameTextFieldDelegate.m in Sources */,
 				3E9F4BDE181F03F300F33B48 /* CardIOTableViewCell.m in Sources */,
 				3E9F4BDF181F03F300F33B48 /* CardIOPaymentViewController.m in Sources */,
 				3E9F4BE0181F03F300F33B48 /* CardIOVideoFrame.mm in Sources */,
@@ -2523,6 +2447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4358E6F91BFBBCBB007E07C3 /* CardIOCardholderNameTextFieldDelegate.m in Sources */,
 				92263E2B1B83B916003FE678 /* CardIOTableViewCell.m in Sources */,
 				92263DDF1B83ADC0003FE678 /* CardIOPaymentViewController.m in Sources */,
 				92263E021B83AE19003FE678 /* CardIOVideoFrame.mm in Sources */,
@@ -2536,6 +2461,7 @@
 				92263DDD1B83ADC0003FE678 /* CardIODataEntryViewController.m in Sources */,
 				92263DFA1B83AE19003FE678 /* CardIOCardOverlay.m in Sources */,
 				92263DDA1B83ADA3003FE678 /* CardIOCreditCardNumber.mm in Sources */,
+				9F7554391D5C152B004A7296 /* ocre.cpp in Sources */,
 				92263E151B83AF13003FE678 /* CardIOCVVTextFieldDelegate.m in Sources */,
 				92263E191B83AF13003FE678 /* CardIONumbersTextFieldDelegate.m in Sources */,
 				92263E281B83B897003FE678 /* CardIOSectionBasedTableViewDelegate.m in Sources */,
@@ -2566,7 +2492,6 @@
 				92263E1B1B83AF13003FE678 /* CardIOPostalCodeTextFieldDelegate.m in Sources */,
 				92263DFE1B83AE19003FE678 /* CardIOConfig.m in Sources */,
 				92263E071B83AE1F003FE678 /* CardIOCameraView.mm in Sources */,
-				9FA4734F1D3C013B004A92D2 /* ocre.cpp in Sources */,
 				92263DDB1B83ADAB003FE678 /* CardIOView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2577,7 +2502,6 @@
 			files = (
 				A553B7031BE32273006DF551 /* iccAppDelegate.m in Sources */,
 				A553B7041BE32273006DF551 /* RootViewController.m in Sources */,
-				9FA4734E1D3C013B004A92D2 /* ocre.cpp in Sources */,
 				A553B7051BE32273006DF551 /* main.m in Sources */,
 				A553B7061BE32273006DF551 /* iccChoicesSelectViewController.m in Sources */,
 				A553B7071BE32273006DF551 /* TestGeneratedModels.mm in Sources */,
@@ -2675,30 +2599,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BE1BE2FEEC00B669FB /* CardIO_Framework_Debug.xcconfig */;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				ENABLE_BITCODE = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/opencv_device/include",
 					"$(SRCROOT)/dmz",
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/include",
+					"\"$(SRCROOT)/tess_include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
-					/Users/KMF/dev/classes,
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/lib",
-					"$(PROJECT_DIR)/opencv_device/lib",
+					"\"$(SRCROOT)/tess_lib\"",
+					"$(PROJECT_DIR)/tess_lib",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lz",
-					"-lstdc++",
-					"$(inherited)",
-					"-g",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -2706,29 +2618,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BF1BE2FEEC00B669FB /* CardIO_Framework_Release.xcconfig */;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				ENABLE_BITCODE = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/opencv_device/include",
 					"$(SRCROOT)/dmz",
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/include",
+					"\"$(SRCROOT)/tess_include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
-					/Users/KMF/dev/classes,
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/lib",
-					"$(PROJECT_DIR)/opencv_device/lib",
+					"\"$(SRCROOT)/tess_lib\"",
+					"$(PROJECT_DIR)/tess_lib",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lz",
-					"-lstdc++",
-					"$(inherited)",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -2736,29 +2637,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BD1BE2FEEC00B669FB /* CardIO_Framework_Adhoc.xcconfig */;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				ENABLE_BITCODE = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/opencv_device/include",
 					"$(SRCROOT)/dmz",
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/include/**",
+					"\"$(SRCROOT)/tess_include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
-					/Users/KMF/dev/classes,
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/lib",
-					"$(PROJECT_DIR)/opencv_device/lib",
+					"\"$(SRCROOT)/tess_lib\"",
+					"$(PROJECT_DIR)/tess_lib",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lz",
-					"-lstdc++",
-					"$(inherited)",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 			};
 			name = AdHoc;
 		};
@@ -2766,37 +2656,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B41BE2F7A800B669FB /* icc_Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_MODULES_AUTOLINK = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
-				GCC_C_LANGUAGE_STANDARD = "compiler-default";
-				HEADER_SEARCH_PATHS = (
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/include/**",
-					"$(SRCROOT)/opencv_device/include",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Classes\"",
-					"$(PROJECT_DIR)/opencv_device/lib",
-				);
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"-lstdc++",
-					"$(SRCROOT)/opencv_device/lib/libopencv_core.a",
-					"$(SRCROOT)/opencv_device/lib/libopencv_imgproc.a",
-				);
-				PRELINK_LIBS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.revmatek.-";
-				PROVISIONING_PROFILE = "";
-				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -2804,36 +2664,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B51BE2F7A800B669FB /* icc_Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_MODULES_AUTOLINK = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
-				GCC_C_LANGUAGE_STANDARD = "compiler-default";
-				HEADER_SEARCH_PATHS = (
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/include/**",
-					"$(SRCROOT)/opencv_device/include",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Classes\"",
-					"$(PROJECT_DIR)/opencv_device/lib",
-				);
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"$(SRCROOT)/opencv_device/lib/libopencv_core.a",
-					"$(SRCROOT)/opencv_device/lib/libopencv_imgproc.a",
-				);
-				OTHER_LIBTOOLFLAGS = "$(inherited) $(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a";
-				PRELINK_LIBS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.revmatek.-";
-				PROVISIONING_PROFILE = "";
-				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -2841,37 +2672,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B31BE2F7A800B669FB /* icc_AdHoc.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_MODULES_AUTOLINK = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
-				GCC_C_LANGUAGE_STANDARD = "compiler-default";
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/opencv_device/include",
-					"/Users/KMF/Desktop/compile-tesseract-master/dependencies/include/**",
-				);
-				"HEADER_SEARCH_PATHS[arch=*]" = "";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Classes\"",
-					"$(PROJECT_DIR)/opencv_device/lib",
-				);
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"-lstdc++",
-				);
-				PRELINK_LIBS = "";
-				"PRELINK_LIBS[arch=*]" = "$(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.revmatek.-";
-				PROVISIONING_PROFILE = "";
-				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = AdHoc;
 		};
