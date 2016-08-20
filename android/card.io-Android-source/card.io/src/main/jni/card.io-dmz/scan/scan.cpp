@@ -19,7 +19,7 @@
 
 void scanner_initialize(ScannerState *state) {
   scanner_reset(state);
-  
+  ocre_init();
 }
 
 void ocre_scanner_init() {
@@ -78,6 +78,29 @@ void scanner_add_frame_with_expiry(ScannerState *state, IplImage *y, bool scan_e
   // TODO: Scene change detection?
   
   if (!result->usable) {
+    ocre_scanImage(y);
+
+    if(ocre_scanner_complete())
+    {
+        ScannerResult * scannerResult = (ScannerResult*)malloc(sizeof(ScannerResult*));
+        scannerResult->n_numbers = 16;
+        char* cardNumber = ocre_scanner_result();
+
+        for(int i = 0; i < scannerResult->n_numbers; i++) {
+          scannerResult->predictions[i] = cardNumber[i] - '0';
+        }
+
+
+
+        scannerResult->expiry_month = 0;
+        scannerResult->expiry_year = 0;
+        scannerResult->complete = true;
+        state->timeOfCardNumberCompletionInMilliseconds = 1; //hack
+        state->successfulCardNumberResult = *scannerResult;
+        result->usable = true;
+
+        ocre_scanner_reset();
+    }
     return;
   }
 

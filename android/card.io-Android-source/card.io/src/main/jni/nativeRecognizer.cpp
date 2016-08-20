@@ -360,8 +360,9 @@ JNIEXPORT void JNICALL Java_io_card_payment_CardScanner_nScanFrame(JNIEnv *env, 
         result.focus_score = focusScore;
         result.flipped = flipped;
         scanner_add_frame_with_expiry(&scannerState, cardY, jScanExpiry, &result);
+        ScannerResult scanResult;
         if (result.usable) {
-          ScannerResult scanResult;
+
           scanner_result(&scannerState, &scanResult);
 
           if (scanResult.complete) {
@@ -369,21 +370,8 @@ JNIEXPORT void JNICALL Java_io_card_payment_CardScanner_nScanFrame(JNIEnv *env, 
             logDinfo(env, dinfo);
           }
         }
-        else if (result.upside_down) {
+        else(result.upside_down) {
           flipped = !flipped;
-        }
-        else {
-             if( result.focus_score >= 9.0f )
-                {
-                  ocre_scanner_scan(image);
-                  if(ocre_scanner_complete())
-                  {
-                    ocre_scanner_result();
-                    ocre_scanner_reset();
-                    return;
-                  }
-                }
-
         }
       }
 

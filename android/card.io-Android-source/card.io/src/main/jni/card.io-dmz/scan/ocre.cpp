@@ -7,6 +7,9 @@
 #include "dmz_olm.h" /* Luhn Check*/
 
 
+//temp
+#include <android/log.h>
+
 tesseract::TessBaseAPI *_tessBaseAPI;
 char* _cardNumber;
 
@@ -70,9 +73,10 @@ const int DEFINITIONS[7][4][4] = {
  */
 void ocre_init() {
   _tessBaseAPI = new tesseract::TessBaseAPI();
-  if ( _tessBaseAPI->Init(null, "co") ) {
+  if ( _tessBaseAPI->Init("/storage/emulated/0/Android/data/org.my.scanExample.debug/files/Tesseract/", "co") ) {
      dmz_debug_print("Failed to init Tesseract. Are you missing tessdata?\n");
   }
+  __android_log_print(ANDROID_LOG_INFO, "CARDINFO: ", "Loaded tesseract");
 }
 
 /**
@@ -82,11 +86,11 @@ void ocre_init() {
  * param digits the number of digits we are looking for (15-16)
  */
 void ocre_scanImage( IplImage *grayscaleCroppedImage, int digits) {
-  
+  __android_log_print(ANDROID_LOG_INFO, "CARDINFO: ", "Scanning Image");
   if( grayscaleCroppedImage == NULL ) {
     return;
   }
-  
+  __android_log_print(ANDROID_LOG_INFO, "CARDINFO: ", "has image");
   //convert to something we can manipulate.
   CvMat header, *mat = cvGetMat( grayscaleCroppedImage, &header );
   cv::Mat grayscaleMat= cv::Mat(mat);
@@ -126,10 +130,12 @@ void ocre_scanImage( IplImage *grayscaleCroppedImage, int digits) {
     for(int i=0; i<digits; i++) {
       luhnCheck[i] = atoi(numberWithoutSpaces.substr(i,1).c_str());
     }
-    
+
+    __android_log_print(ANDROID_LOG_INFO, "CARDINFO: ", "Verifying!!!");
     if( dmz_passes_luhn_checksum(luhnCheck, digits) )  {
       ocre_reset();
       _cardNumber = (char*)numberWithoutSpaces.c_str();
+      __android_log_print(ANDROID_LOG_INFO, "CARDINFO: ", "%s", _cardNumber);
       free(luhnCheck);
       return;
     }

@@ -25,10 +25,10 @@ io.card.payment.CardScanner:
     static final int ORIENTATION_PORTRAIT
     static final int CREDIT_CARD_TARGET_WIDTH
     static final int CREDIT_CARD_TARGET_HEIGHT
-    504:504:android.graphics.Rect getGuideFrame()
-    516:516:int getDeviceOrientation()
-    520:530:java.util.Map getAnalytics()
-    555:558:void toggleFlash()
+    505:505:android.graphics.Rect getGuideFrame()
+    517:517:int getDeviceOrientation()
+    521:531:java.util.Map getAnalytics()
+    556:559:void toggleFlash()
 io.card.payment.CreditCardNumber:
     14:14:CreditCardNumber()
     117:127:public static boolean isDateValid(java.lang.String)
