@@ -27,26 +27,39 @@ Note: branch structure is subject to change for master release. The dev branch i
 
 Current Directory description:
 
+SampleCollector: 
+	Prefab card.io iOS project designed to collect frames from the video stream for training
+	or adding new definitions. 
+
 android: 
-	Contains WIP Android Studio sample project with dmz changes for development and testing 
+	Contains WIP Android Studio sample project with dmz changes for development and testing. 
 
 dmz: 
-	Contains dmz changes for card.io dmz repo
+	Contains dmz changes for card.io dmz repo.
 
 compile: 
-	Contains scripts for compiling lib*.a libraries for iOS. Android lib*.so instructions to be added
+	Contains scripts for compiling lib*.a libraries for iOS. Android lib*.so instructions to be added.
 
 iOS:
-	Contains iOS specific changes to card.io iOS repo
+	Contains iOS specific changes to card.io iOS repo.
 
 merge-test: 
 	Contains iOS WIP Xcode sample project with dmz changes for development and testing.
 
 tessdata: 
-	Precompiled trained data for recognizing capital one format cards with tesseract
+	Precompiled trained data for recognizing capital one format cards with tesseract.
 
+Current File description:
 
-Environment Configurations and Documentation for Android to be added. 
+Environment_Configurations_iOS.pdf:
+	Contains install instructions for iOS project.
+
+Adding_new_card_definitions:
+	Contains instructions for collecting new samples and adding card definitions.
+
+To be added:
+	-Environment Configurations and Documentation for Android.
+ 	-Tesseract training instructions
 
 
 
