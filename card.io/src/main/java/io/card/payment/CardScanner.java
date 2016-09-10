@@ -469,7 +469,6 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
         /** pika **/
         nScanFrame(data, mPreviewWidth, mPreviewHeight, mFrameOrientation, dInfo, detectedBitmap, mScanExpiry);
 
-
         boolean sufficientFocus = (dInfo.focusScore >= MIN_FOCUS_SCORE);
 
         if (!sufficientFocus) {
