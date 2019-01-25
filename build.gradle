@@ -1,0 +1,30 @@
+buildscript {
+    ext.kotlin_version = '1.1.1'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.0-beta01'
+        classpath "io.codearte.gradle.nexus:gradle-nexus-staging-plugin:0.5.3"
+        classpath 'com.google.gms:google-services:4.2.0'
+    }
+}
+
+task assemble {}
+
+ext {
+    compileSdkVersion = 24
+    buildToolsVersion = '24.0.1'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.14.1'
+}
+allprojects {
+    repositories {
+        mavenLocal()
+        google()
+        jcenter()
+    }
+}

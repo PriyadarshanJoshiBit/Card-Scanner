@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "812103554764",
+    "firebase_url": "https://cardpayment-4c8f4.firebaseio.com",
+    "project_id": "cardpayment-4c8f4",
+    "storage_bucket": "cardpayment-4c8f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812103554764:android:f0580eb8c9407c3f",
+        "android_client_info": {
+          "package_name": "io.card.payment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812103554764-5ktd551ej5hhgmfmu2q17h2fakj4llp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGppNnQpoi9GLhYcra9MMY4wYviW0It9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

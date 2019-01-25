@@ -1,0 +1,81 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+    }
+}
+
+repositories {
+    jcenter()
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
+
+    /*signingConfigs {
+        myConfig {
+      *//*      storeFile file("example.keystore")
+            storePassword "abc123"
+            keyAlias "example-alias"
+            keyPassword "abc123"
+      *//*  }
+    }*/
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+        }
+
+        release {
+            minifyEnabled true
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+         //   signingConfig signingConfigs.myConfig
+        }
+    }
+    defaultConfig {
+        minSdkVersion = 15
+    }
+
+    /*  android.applicationVariants.all { variant ->
+          variant.outputs.each { output ->
+              def outputFile = output.outputFile
+              if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                  output.outputFile = new File(outputFile.parent, "card.io-sample-app-${variant.name}.apk")
+              }
+          }
+      }*/
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "card.io-sample-app-${variant.name}.apk"
+        }
+    }
+}
+
+dependencies {
+    if (parent != null) {
+        compile project(':card.io')
+
+    } else {
+        compile 'io.card:android-sdk:REPLACE_VERSION'
+    }
+    implementation 'com.google.firebase:firebase-ml-vision:18.0.1'
+    implementation 'com.stripe:stripe-android:6.1.2'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.14.1'
+}
+apply plugin: 'com.google.gms.google-services'

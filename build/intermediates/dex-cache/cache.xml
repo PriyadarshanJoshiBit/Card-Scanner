@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\SampleApp\build\intermediates\exploded-aar\Card.io-for-Capital-One-vertical-Cards\card.io\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="efe9a468d5657cecb338bad7997534df604d88de">
+        <dex dex="E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\SampleApp\build\intermediates\pre-dexed\debug\Card.io-for-Capital-One-vertical-Cards-card.io-unspecified_15e9a43998a7df08e1642ec2cd34ac74d0f059c1.jar" />
+    </item>
+
+</items>

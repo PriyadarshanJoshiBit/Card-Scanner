@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:7:15-44
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:10:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:13:22-78
+uses-feature#android.hardware.camera
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:16:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:19:9-57
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:22:22-72
+application
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:24:5-30:19
+activity#io.card.payment.CardIOActivity
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:25:9-27:66
+	android:configChanges
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:27:13-63
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:26:13-43
+activity#io.card.payment.DataEntryActivity
+ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:28:9-55
+	android:name
+		ADDED from E:\sample_projects\Card.io-for-Capital-One-vertical-Cards\card.io\src\main\AndroidManifest.xml:28:19-52
