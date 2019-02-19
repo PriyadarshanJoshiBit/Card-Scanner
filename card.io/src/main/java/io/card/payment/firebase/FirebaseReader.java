@@ -17,22 +17,18 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import io.card.payment.firebase.model.Card;
-
 public class FirebaseReader {
 
     private static final String TAG ="FirebaseReader";
-    FirebaseVisionText visionText = null;
 
-    protected FirebaseVisionText readPrintedCard(Bitmap cardImage){
+    protected void readPrintedCard(Bitmap cardImage, final FireBaseService fbService){
 
 
         if(cardImage == null){
             Log.i("FirebaseReader", "Bitmap Found null");
-            return null;
+            return ;
         }
 
-        //FirebaseApp.initializeApp(this.scanActivity);
         FirebaseVisionImage image = FirebaseVisionImage.fromBitmap(cardImage);
         FirebaseVisionTextRecognizer recognizer = FirebaseVision.getInstance().getOnDeviceTextRecognizer();
 
@@ -41,7 +37,7 @@ public class FirebaseReader {
                         new OnSuccessListener<FirebaseVisionText>() {
                             @Override
                             public void onSuccess(FirebaseVisionText texts) {
-                                 visionText=texts;
+                                 fbService.processRecognizedText(texts);
                             }
                         })
                 .addOnFailureListener(
@@ -52,7 +48,7 @@ public class FirebaseReader {
                             }
                         });
 
-        return visionText;
+
     }
 
 

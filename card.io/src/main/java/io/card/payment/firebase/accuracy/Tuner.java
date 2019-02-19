@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-class Tuner {
+public class Tuner {
 
     private HashMap<String,Integer> cardNumAccMap = new HashMap<String,Integer>();
     private HashMap<String,Integer> expDtAccMap = new HashMap<String,Integer>();
@@ -16,7 +16,7 @@ class Tuner {
 
     private static final Tuner ourInstance = new Tuner();
 
-    static Tuner getInstance() {
+    public static Tuner getInstance() {
         return ourInstance;
     }
 
@@ -58,13 +58,13 @@ class Tuner {
     }
 
 
-
     private void addEntityToMap(HashMap<String,Integer> accurcyMap, String entity){
         if(!(entity == null ||  entity.equals(""))){
             int currentCount = accurcyMap.get(entity) == null ? 0 : accurcyMap.get(entity) ;
             accurcyMap.put(entity, currentCount + 1 );
         }
     }
+
 
 
     private String mostlyOccurringEntity(HashMap<String,Integer> accurcyMap){
@@ -85,6 +85,6 @@ class Tuner {
         return ((LinkedList<Map.Entry<String,Integer>>) list).getFirst().getKey();
     }
 
-    private String
+
 
 }

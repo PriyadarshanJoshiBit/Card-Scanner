@@ -2,22 +2,34 @@ package io.card.payment.firebase.parser;
 
 import java.util.regex.Pattern;
 
-import io.card.payment.firebase.model.DetectedCard;
+import io.card.payment.firebase.accuracy.Tuner;
+import io.card.payment.firebase.model.CardFeatures;
+import io.card.payment.firebase.model.CardUC;
 
 public class CvvParser implements ParserChain {
 
     ParserChain nextChain;
-    Pattern expiryDatePattern = Pattern.compile("[0-9]{3}");
+    Pattern cvvPattern = Pattern.compile("[0-9]{3}");
+
+    CardFeatures _relatedFtr = CardFeatures.CVV;
 
     public CvvParser(){
         this.nextChain = null;
     }
 
     @Override
-    public void parse(DetectedCard detectedCard, String detectedText) {
+    public void parse(CardUC detectedCard, String detectedText) {
 
-        if(expiryDatePattern.matcher(detectedText).matches()){
-           // activity.cvv = detectedText;
+        if(detectedCard.shouldBeDetected(_relatedFtr)) {
+            if(cvvPattern.matcher(detectedText).matches()){
+                Tuner.getInstance().addCVV(detectedText);
+                //detectedCard.getCard().setcVV(detectedText);
+            }
+            if(detectedCard.getMandatoryFieldsCaptured()){
+                detectedCard.incrementAttempts(_relatedFtr);
+            }
+
         }
+
     }
 }

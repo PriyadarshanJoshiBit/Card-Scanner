@@ -9,7 +9,7 @@ package io.card.payment;
  * java and native code/
  */
 
-class DetectionInfo {
+public class DetectionInfo {
     public boolean complete;
     public boolean topEdge;
     public boolean bottomEdge;
@@ -40,6 +40,10 @@ class DetectionInfo {
 
     boolean detected() {
         return (topEdge && bottomEdge && rightEdge && leftEdge);
+    }
+
+    boolean notACardImageDetected() {
+        return (topEdge || bottomEdge || rightEdge || leftEdge ) == false;
     }
 
     boolean predicted() {

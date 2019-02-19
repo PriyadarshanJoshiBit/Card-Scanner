@@ -1,9 +1,9 @@
 package io.card.payment.firebase.parser;
 
 
-import io.card.payment.firebase.model.DetectedCard;
+import io.card.payment.firebase.model.CardUC;
 
 public interface ParserChain {
-    public void parse(DetectedCard detectedCard, String detectedText);
+    public void parse(CardUC detectedCard, String detectedText);
 
 }

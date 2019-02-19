@@ -1,12 +1,12 @@
 package io.card.payment.firebase.parser;
 
 
-import io.card.payment.firebase.model.DetectedCard;
+import io.card.payment.firebase.model.CardUC;
 
 public class DataExtractor {
 
     ParserChain parser;
-    public void extractData(DetectedCard detectedCard, String detectedText){
+    public void extractData(CardUC detectedCard, String detectedText){
         this.parser.parse(detectedCard, detectedText);
     }
     public DataExtractor(){

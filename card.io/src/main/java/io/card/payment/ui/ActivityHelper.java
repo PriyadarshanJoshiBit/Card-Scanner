@@ -127,7 +127,8 @@ public class ActivityHelper {
         if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.HONEYCOMB) {
             // Prevent screenshots; FLAG_SECURE is restricted to HoneyComb and above to prevent issues with some Samsung handsets
             // Please see http://stackoverflow.com/questions/9822076/how-do-i-prevent-android-taking-a-screenshot-when-my-app-goes-to-the-background
-            activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
+          //TODO uncomment after demo
+            //  activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
         }
     }
 }

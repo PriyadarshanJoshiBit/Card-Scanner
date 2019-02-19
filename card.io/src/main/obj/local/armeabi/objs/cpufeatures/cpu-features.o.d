@@ -1,182 +1,182 @@
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/obj/local/armeabi/objs/cpufeatures/cpu-features.o: \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/android/cpufeatures/cpu-features.c \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/android/cpufeatures/cpu-features.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs_elf.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\android/api-level.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdint.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/_wchar_limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\dlfcn.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\errno.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/errno.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/errno.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/errno.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/errno-base.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\fcntl.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/posix_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/stddef.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/compiler.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/posix_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/kernel.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/sysmacros.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/fcntl.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/fcntl.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/fcntl.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\unistd.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/select.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/time.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/time.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\signal.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/internal_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/syslimits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/page.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\string.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\malloc.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/signal.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/signal.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/sigcontext.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/siginfo.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/siginfo.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/ucontext.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/user.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/sysconf.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/capability.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\pathconf.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\pthread.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\time.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sched.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdio.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdlib.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\alloca.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\strings.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\memory.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/system_properties.h
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/obj/local/armeabi/objs/cpufeatures/cpu-features.o: \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/android/cpufeatures/cpu-features.c \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/android/cpufeatures/cpu-features.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs_elf.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\android/api-level.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdint.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/_wchar_limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\dlfcn.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\errno.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/errno.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/errno.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/errno.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/errno-base.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\fcntl.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/posix_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/stddef.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/compiler.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/posix_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/kernel.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/sysmacros.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/fcntl.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/fcntl.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/fcntl.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\unistd.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/select.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/time.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/time.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\signal.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/internal_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/syslimits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/page.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\string.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\malloc.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/signal.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/signal.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/sigcontext.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/siginfo.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/siginfo.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/ucontext.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/user.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/sysconf.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/capability.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\pathconf.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\pthread.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\time.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sched.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdio.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdlib.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\alloca.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\strings.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\memory.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/system_properties.h
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/android/cpufeatures/cpu-features.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/android/cpufeatures/cpu-features.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs_elf.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs_elf.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\android/api-level.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\android/api-level.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdint.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdint.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/_types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/_types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/_types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/_types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/_wchar_limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/_wchar_limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\dlfcn.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\dlfcn.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\errno.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\errno.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/errno.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/errno.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/errno.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/errno.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/errno.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/errno.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/errno-base.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/errno-base.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\fcntl.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\fcntl.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/posix_types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/posix_types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/stddef.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/stddef.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/compiler.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/compiler.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/posix_types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/posix_types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/kernel.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/kernel.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/sysmacros.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/sysmacros.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/fcntl.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/fcntl.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/fcntl.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/fcntl.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/fcntl.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/fcntl.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\unistd.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\unistd.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/select.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/select.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/time.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/time.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/time.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/time.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\signal.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\signal.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/internal_types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/internal_types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/syslimits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/syslimits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/page.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/page.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\string.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\string.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\malloc.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\malloc.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/signal.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/signal.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/signal.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/signal.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/sigcontext.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/sigcontext.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/siginfo.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/siginfo.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm-generic/siginfo.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm-generic/siginfo.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/ucontext.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/ucontext.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/user.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/user.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/sysconf.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/sysconf.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/capability.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/capability.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\pathconf.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\pathconf.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\pthread.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\pthread.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\time.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\time.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sched.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sched.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdio.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdio.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdlib.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdlib.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\alloca.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\alloca.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\strings.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\strings.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\memory.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\memory.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/system_properties.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/system_properties.h:

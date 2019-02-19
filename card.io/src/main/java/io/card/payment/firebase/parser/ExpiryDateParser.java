@@ -2,32 +2,37 @@ package io.card.payment.firebase.parser;
 
 import java.util.regex.Pattern;
 
-import io.card.payment.firebase.model.DetectedCard;
+import io.card.payment.firebase.accuracy.Tuner;
+import io.card.payment.firebase.model.CardFeatures;
+import io.card.payment.firebase.model.CardUC;
 
 public class ExpiryDateParser implements ParserChain {
 
-    ParserChain nextChain;
-    Pattern expiryDatePattern = Pattern.compile("[0-9]{2}/[0-9]{2}");
-
+    private ParserChain nextChain;
+    private Pattern expiryDatePattern = Pattern.compile("[0-9]{2}/[0-9]{2}");
+    private CardFeatures _relatedFtr = CardFeatures.EXPIRY;
+    private int attemptsAllowed;
     public ExpiryDateParser(){
+        this.attemptsAllowed = CardFeatures.EXPIRY.atmtsToFindAfterMndtryFlds;
         this.nextChain = new ExpiryMulitpleDateParser();
     }
 
-
-
     @Override
-    public void parse(DetectedCard detectedCard, String detectedText) {
+    public void parse(CardUC detectedCard, String detectedText) {
 
-        if(expiryDatePattern.matcher(detectedText).matches()){
-           // activity.setExpiryDateDetected(true);
-            setExpiryDate(detectedText);
-        }else{
-            this.nextChain.parse(detectedCard,detectedText);
+        if(detectedCard.shouldBeDetected(_relatedFtr)){
+            if(detectedCard.getMandatoryFieldsCaptured()) {
+                detectedCard.incrementAttempts(_relatedFtr);
+
+                if (expiryDatePattern.matcher(detectedText).matches()) {
+                    //detectedCard.getCard().setExpiryDate(detectedText);
+                    Tuner.getInstance().addExpDt(detectedText);
+                }
+            }
+
         }
+            this.nextChain.parse(detectedCard,detectedText);
     }
 
-    public void setExpiryDate(String detectedText){
-       /* activity.expiryMonth = detectedText.split("/")[0];
-        activity.expiryYear = detectedText.split("/")[1];*/
-    }
+
 }

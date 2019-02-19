@@ -4,41 +4,52 @@ import android.graphics.Bitmap;
 
 import io.card.payment.firebase.custom.exceptions.MethodInvocationOnNullCardException;
 
-public class PrintedCard implements Card {
+public class PrintedCard  {
 
     private String cardNumber;
-    private int expiryMonth;
-    private int expiryYear;
-    private int cVV;
+    private String expiryDate;
+    private String cVV;
     private Bitmap cardImage;
 
-    @Override
+
+    public String getExpiryDate() {
+        return expiryDate;
+    }
+
+    public void setExpiryDate(String expiryDate) {
+        this.expiryDate = expiryDate;
+    }
+
+    public String getcVV() {
+        return cVV;
+    }
+
+    public Bitmap getCardImage() {
+        return cardImage;
+    }
+
+    public String getCardNumber() {
+        return cardNumber;
+    }
+
+    public void setCardNumber(String cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+
+    public void setcVV(String cVV) {
+        this.cVV = cVV;
+    }
+
+    public void setCardImage(Bitmap cardImage) {
+        this.cardImage = cardImage;
+    }
+
+
+
     public boolean isValidCard() {
         return true;
     }
 
-    @Override
-    public String getCardNumber() throws MethodInvocationOnNullCardException {
-        return this.cardNumber;
-    }
 
-    @Override
-    public int getExpiryMonth() throws MethodInvocationOnNullCardException {
-        return this.expiryMonth;
-    }
 
-    @Override
-    public int getExpiryYear() throws MethodInvocationOnNullCardException {
-        return this.expiryYear;
-    }
-
-    @Override
-    public int getCVV() throws MethodInvocationOnNullCardException {
-        return this.cVV;
-    }
-
-    @Override
-    public Bitmap getImage() throws MethodInvocationOnNullCardException {
-        return this.cardImage;
-    }
 }

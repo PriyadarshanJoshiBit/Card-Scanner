@@ -1,668 +1,668 @@
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/obj/local/armeabi-v7a/objs/cardioRecognizer/nativeRecognizer.o: \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/nativeRecognizer.cpp \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdio.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs_elf.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\android/api-level.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdint.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/posix_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/stddef.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/compiler.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/posix_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/kernel.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/sysmacros.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\string.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\malloc.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\jni.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\android/log.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\android/bitmap.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/opencv2/core/core_c.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\opencv2/core/types_c.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\assert.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdlib.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\alloca.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\strings.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\memory.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\math.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/internal_types.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/limits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/syslimits.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/page.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/opencv2/imgproc/imgproc_c.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\opencv2/core/core_c.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\opencv2/imgproc/types_c.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\dmz.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/dmz_olm.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/dmz_macros.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/dmz_constants.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/opencv2/core/core_c.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\processor_support.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/mz.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\dmz_debug.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\cv/warp.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/scan.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/frame.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/expiry_seg.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/expiry_types.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\eigen.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Core \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/DisableStupidWarnings.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Macros.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\complex \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/MKL_support.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cerrno \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstddef \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstdlib \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cmath \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cassert \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\functional \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstring \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\limits \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\climits \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\algorithm \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Constants.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/ForwardDeclarations.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Meta.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/StaticAssert.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/XprHelper.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Memory.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\unistd.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/select.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/sysconf.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/capability.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\pathconf.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NumTraits.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MathFunctions.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GenericPacketMath.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/NEON/PacketMath.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/NEON/Complex.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/Default/Settings.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Functors.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseCoeffsBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/BlockMethods.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MatrixBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/EigenBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Assign.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/BlasUtil.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseStorage.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NestByValue.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ForceAlignedAccess.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ReturnByValue.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NoAlias.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/PlainObjectBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Matrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Array.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseBinaryOp.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseUnaryOp.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseNullaryOp.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseUnaryView.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SelfCwiseBinaryOp.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Dot.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/StableNorm.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MapBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Stride.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Map.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Block.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/VectorBlock.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Ref.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Transpose.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DiagonalMatrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Diagonal.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DiagonalProduct.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/PermutationMatrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Transpositions.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Redux.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Visitor.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Fuzzy.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/IO.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Swap.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CommaInitializer.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Flagged.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ProductBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GeneralProduct.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/TriangularMatrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SelfAdjointView.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/Parallelizer.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/CoeffBasedProduct.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixVector.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixMatrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SolveTriangular.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointMatrixVector.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointProduct.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointRank2Update.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularMatrixVector.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularMatrixMatrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularSolverMatrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularSolverVector.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/BandMatrix.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CoreIterators.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/BooleanRedux.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Select.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/VectorwiseOp.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Random.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Replicate.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Reverse.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ArrayBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ArrayWrapper.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GlobalFunctions.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/ReenableStupidWarnings.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Dense \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/LU \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Solve.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Kernel.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Image.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/FullPivLU.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/PartialPivLU.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/Determinant.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/Inverse.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Cholesky \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Cholesky/LLT.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Cholesky/LDLT.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/QR \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Jacobi \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Jacobi/Jacobi.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Householder \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/Householder.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/HouseholderSequence.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/BlockHouseholder.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/HouseholderQR.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/FullPivHouseholderQR.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/ColPivHouseholderQR.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/SVD \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/SVD/JacobiSVD.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/SVD/UpperBidiagonalization.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Geometry \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/OrthoMethods.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/EulerAngles.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Homogeneous.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/RotationBase.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Rotation2D.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Quaternion.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/AngleAxis.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Transform.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Translation.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Scaling.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Hyperplane.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/ParametrizedLine.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/AlignedBox.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Umeyama.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Eigenvalues \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/Tridiagonalization.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/RealSchur.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/./HessenbergDecomposition.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/EigenSolver.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/ComplexSchur.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/RealQZ.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\vector \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/n_categorize.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/n_hseg.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/n_vseg.h \
-  E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/scan_analytics.h \
-  E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\map
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdio.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs_elf.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\android/api-level.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/types.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdint.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/_types.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/_types.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/posix_types.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/stddef.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/compiler.h:
-
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/posix_types.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/obj/local/armeabi-v7a/objs/cardioRecognizer/nativeRecognizer.o: \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/nativeRecognizer.cpp \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdio.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs_elf.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\android/api-level.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdint.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/posix_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/stddef.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/compiler.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/posix_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/kernel.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/sysmacros.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\string.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\malloc.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\jni.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\android/log.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\android/bitmap.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/opencv2/core/core_c.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\opencv2/core/types_c.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\assert.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdlib.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\alloca.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\strings.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\memory.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\math.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/internal_types.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/limits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/syslimits.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/page.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/opencv2/imgproc/imgproc_c.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\opencv2/core/core_c.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\opencv2/imgproc/types_c.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\dmz.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/dmz_olm.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/dmz_macros.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/dmz_constants.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/opencv2/core/core_c.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\processor_support.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/mz.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\dmz_debug.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\cv/warp.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/scan.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/frame.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/expiry_seg.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/expiry_types.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\eigen.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Core \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/DisableStupidWarnings.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Macros.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\complex \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/MKL_support.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cerrno \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstddef \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstdlib \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cmath \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cassert \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\functional \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstring \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\limits \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\climits \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\algorithm \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Constants.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/ForwardDeclarations.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Meta.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/StaticAssert.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/XprHelper.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Memory.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\unistd.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/select.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/sysconf.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/capability.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\pathconf.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NumTraits.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MathFunctions.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GenericPacketMath.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/NEON/PacketMath.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/NEON/Complex.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/Default/Settings.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Functors.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseCoeffsBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/BlockMethods.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MatrixBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/EigenBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Assign.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/BlasUtil.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseStorage.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NestByValue.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ForceAlignedAccess.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ReturnByValue.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NoAlias.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/PlainObjectBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Matrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Array.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseBinaryOp.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseUnaryOp.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseNullaryOp.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseUnaryView.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Dot.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/StableNorm.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MapBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Stride.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Map.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Block.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/VectorBlock.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Ref.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Transpose.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DiagonalMatrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Diagonal.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DiagonalProduct.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/PermutationMatrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Transpositions.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Redux.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Visitor.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Fuzzy.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/IO.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Swap.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CommaInitializer.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Flagged.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ProductBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GeneralProduct.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/TriangularMatrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SelfAdjointView.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/Parallelizer.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/CoeffBasedProduct.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixVector.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SolveTriangular.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointProduct.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularMatrixVector.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularSolverVector.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/BandMatrix.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CoreIterators.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/BooleanRedux.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Select.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/VectorwiseOp.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Random.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Replicate.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Reverse.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ArrayBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ArrayWrapper.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GlobalFunctions.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Dense \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/LU \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Solve.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Kernel.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Image.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/FullPivLU.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/PartialPivLU.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/Determinant.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/Inverse.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Cholesky \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Cholesky/LLT.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Cholesky/LDLT.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/QR \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Jacobi \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Jacobi/Jacobi.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Householder \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/Householder.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/HouseholderSequence.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/BlockHouseholder.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/HouseholderQR.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/FullPivHouseholderQR.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/ColPivHouseholderQR.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/SVD \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/SVD/JacobiSVD.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/SVD/UpperBidiagonalization.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Geometry \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/OrthoMethods.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/EulerAngles.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Homogeneous.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/RotationBase.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Rotation2D.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Quaternion.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/AngleAxis.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Transform.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Translation.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Scaling.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Hyperplane.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/ParametrizedLine.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/AlignedBox.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Umeyama.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Eigenvalues \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/RealSchur.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/./HessenbergDecomposition.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/EigenSolver.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/ComplexSchur.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/RealQZ.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\vector \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/n_categorize.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/n_hseg.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/n_vseg.h \
+  C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/scan_analytics.h \
+  C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\map
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdio.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/cdefs_elf.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\android/api-level.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/types.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdint.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/_types.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/_types.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/posix_types.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/stddef.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/compiler.h:
+
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/posix_types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/kernel.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/kernel.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/sysmacros.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/sysmacros.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\string.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\string.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\malloc.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\malloc.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\jni.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\jni.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\android/log.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\android/log.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\android/bitmap.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\android/bitmap.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/opencv2/core/core_c.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/opencv2/core/core_c.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\opencv2/core/types_c.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\opencv2/core/types_c.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\assert.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\assert.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\stdlib.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\stdlib.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\alloca.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\alloca.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\strings.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\strings.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\memory.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\memory.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\math.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\math.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/internal_types.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/internal_types.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\machine/limits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\machine/limits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/syslimits.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/syslimits.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\asm/page.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\asm/page.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/opencv2/imgproc/imgproc_c.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/opencv2/imgproc/imgproc_c.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\opencv2/core/core_c.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\opencv2/core/core_c.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\opencv2/imgproc/types_c.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\opencv2/imgproc/types_c.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\dmz.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\dmz.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/dmz_olm.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/dmz_olm.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/dmz_macros.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/dmz_macros.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/dmz_constants.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/dmz_constants.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/opencv2/core/core_c.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/opencv2/core/core_c.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\processor_support.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\processor_support.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/mz.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/mz.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\dmz_debug.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\dmz_debug.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\cv/warp.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\cv/warp.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/scan.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/scan.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/frame.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/frame.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/expiry_seg.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/expiry_seg.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/expiry_types.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/expiry_types.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\eigen.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\eigen.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Core:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Core:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/DisableStupidWarnings.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/DisableStupidWarnings.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Macros.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Macros.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\complex:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\complex:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/MKL_support.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/MKL_support.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cerrno:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cerrno:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstddef:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstddef:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstdlib:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstdlib:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cmath:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cmath:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cassert:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cassert:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\functional:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\functional:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstring:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\cstring:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\limits:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\limits:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\climits:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\climits:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\algorithm:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\algorithm:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Constants.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Constants.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/ForwardDeclarations.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/ForwardDeclarations.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Meta.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Meta.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/StaticAssert.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/StaticAssert.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/XprHelper.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/XprHelper.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Memory.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/Memory.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\unistd.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\unistd.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/select.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/select.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\sys/sysconf.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\sys/sysconf.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\linux/capability.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\linux/capability.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/platforms/android-8/arch-arm/usr/include\pathconf.h:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/platforms/android-8/arch-arm/usr/include\pathconf.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NumTraits.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NumTraits.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MathFunctions.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MathFunctions.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GenericPacketMath.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GenericPacketMath.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/NEON/PacketMath.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/NEON/PacketMath.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/NEON/Complex.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/NEON/Complex.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/Default/Settings.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/arch/Default/Settings.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Functors.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Functors.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseCoeffsBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseCoeffsBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/BlockMethods.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/BlockMethods.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MatrixBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MatrixBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/EigenBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/EigenBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Assign.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Assign.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/BlasUtil.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/BlasUtil.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseStorage.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DenseStorage.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NestByValue.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NestByValue.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ForceAlignedAccess.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ForceAlignedAccess.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ReturnByValue.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ReturnByValue.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NoAlias.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/NoAlias.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/PlainObjectBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/PlainObjectBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Matrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Matrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Array.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Array.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseBinaryOp.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseBinaryOp.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseUnaryOp.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseUnaryOp.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseNullaryOp.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseNullaryOp.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseUnaryView.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CwiseUnaryView.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SelfCwiseBinaryOp.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SelfCwiseBinaryOp.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Dot.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Dot.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/StableNorm.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/StableNorm.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MapBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/MapBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Stride.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Stride.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Map.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Map.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Block.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Block.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/VectorBlock.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/VectorBlock.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Ref.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Ref.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Transpose.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Transpose.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DiagonalMatrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DiagonalMatrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Diagonal.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Diagonal.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DiagonalProduct.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/DiagonalProduct.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/PermutationMatrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/PermutationMatrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Transpositions.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Transpositions.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Redux.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Redux.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Visitor.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Visitor.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Fuzzy.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Fuzzy.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/IO.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/IO.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Swap.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Swap.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CommaInitializer.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CommaInitializer.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Flagged.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Flagged.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ProductBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ProductBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GeneralProduct.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GeneralProduct.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/TriangularMatrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/TriangularMatrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SelfAdjointView.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SelfAdjointView.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/Parallelizer.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/Parallelizer.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/CoeffBasedProduct.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/CoeffBasedProduct.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixVector.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixVector.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixMatrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SolveTriangular.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/SolveTriangular.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointMatrixVector.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointProduct.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointProduct.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointRank2Update.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/SelfadjointRank2Update.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularMatrixVector.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularMatrixVector.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularMatrixMatrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularSolverMatrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularSolverVector.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/products/TriangularSolverVector.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/BandMatrix.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/BandMatrix.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CoreIterators.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/CoreIterators.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/BooleanRedux.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/BooleanRedux.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Select.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Select.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/VectorwiseOp.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/VectorwiseOp.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Random.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Random.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Replicate.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Replicate.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Reverse.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/Reverse.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ArrayBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ArrayBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ArrayWrapper.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/ArrayWrapper.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GlobalFunctions.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/GlobalFunctions.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/ReenableStupidWarnings.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Dense:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Dense:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/LU:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/LU:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Solve.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Solve.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Kernel.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Kernel.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Image.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/misc/Image.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/FullPivLU.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/FullPivLU.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/PartialPivLU.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/PartialPivLU.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/Determinant.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/Determinant.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/Inverse.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/LU/Inverse.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Cholesky:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Cholesky:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Cholesky/LLT.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Cholesky/LLT.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Cholesky/LDLT.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Cholesky/LDLT.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/QR:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/QR:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Jacobi:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Jacobi:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Jacobi/Jacobi.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Jacobi/Jacobi.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Householder:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Householder:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/Householder.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/Householder.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/HouseholderSequence.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/HouseholderSequence.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/BlockHouseholder.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Householder/BlockHouseholder.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/HouseholderQR.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/HouseholderQR.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/FullPivHouseholderQR.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/FullPivHouseholderQR.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/ColPivHouseholderQR.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/QR/ColPivHouseholderQR.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/SVD:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/SVD:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/SVD/JacobiSVD.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/SVD/JacobiSVD.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/SVD/UpperBidiagonalization.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/SVD/UpperBidiagonalization.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Geometry:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Geometry:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/OrthoMethods.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/OrthoMethods.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/EulerAngles.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/EulerAngles.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Homogeneous.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Homogeneous.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/RotationBase.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/RotationBase.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Rotation2D.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Rotation2D.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Quaternion.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Quaternion.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/AngleAxis.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/AngleAxis.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Transform.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Transform.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Translation.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Translation.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Scaling.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Scaling.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Hyperplane.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Hyperplane.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/ParametrizedLine.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/ParametrizedLine.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/AlignedBox.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/AlignedBox.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Umeyama.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Geometry/Umeyama.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/Eigenvalues:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/Eigenvalues:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/Tridiagonalization.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/RealSchur.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/RealSchur.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/./HessenbergDecomposition.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/./HessenbergDecomposition.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/EigenSolver.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/EigenSolver.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/ComplexSchur.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/ComplexSchur.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/RealQZ.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/RealQZ.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\vector:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\vector:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/n_categorize.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/n_categorize.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/n_hseg.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/n_hseg.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/n_vseg.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/n_vseg.h:
 
-E:/sample_projects/Card.io-for-Capital-One-vertical-Cards/card.io/src/main/jni/card.io-dmz\scan/scan_analytics.h:
+C:/Users/priyadarshj/Desktop/applebee/CardScanner/card.io/src/main/jni/card.io-dmz\scan/scan_analytics.h:
 
-E:/ndk_dwnld/android_ndk_r10e_windows_x86_64/android_ndk_r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\map:
+C:/Users/priyadarshj/AppData/Local/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include\map:

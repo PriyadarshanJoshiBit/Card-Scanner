@@ -11,7 +11,7 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 2;
   public static final String VERSION_NAME = "1.0";
   // Fields from default config.
-  public static final String BUILD_TIME = "01/24/2019 15:27:49 +0530";
+  public static final String BUILD_TIME = "02/19/2019 16:05:31 +0530";
   public static final String PRODUCT_NAME = "card.io-Android-SDK";
   public static final String PRODUCT_VERSION = "10";
 }

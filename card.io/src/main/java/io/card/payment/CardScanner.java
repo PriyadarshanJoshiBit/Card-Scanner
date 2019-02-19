@@ -17,37 +17,23 @@ import android.hardware.Camera;
 import android.hardware.Camera.Parameters;
 import android.hardware.Camera.Size;
 import android.os.Build;
-import android.renderscript.Allocation;
-import android.renderscript.Element;
-import android.renderscript.RenderScript;
-import android.renderscript.ScriptIntrinsicYuvToRGB;
-import android.renderscript.Type;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.WindowManager;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.ml.vision.FirebaseVision;
-import com.google.firebase.ml.vision.common.FirebaseVisionImage;
-import com.google.firebase.ml.vision.text.FirebaseVisionText;
-import com.google.firebase.ml.vision.text.FirebaseVisionTextRecognizer;
-
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
-import java.nio.ByteBuffer;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
+
+import io.card.payment.firebase.CardDetectionHandler;
+import io.card.payment.firebase.FireBaseService;
+import io.card.payment.firebase.model.CardUC;
 
 /**
  * Encapsulates the core image scanning.
@@ -138,6 +124,10 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
     private int numFramesSkipped;
 
     public Activity scanActivity;
+
+    FireBaseService fbService = new FireBaseService();
+    CardDetectionHandler cardDetectionHandler = new CardDetectionHandler();
+    CardUC detectedCard ;
     // ------------------------------------------------------------------------
     // STATIC INITIALIZATION
     // ------------------------------------------------------------------------
@@ -199,6 +189,7 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
         mScanActivityRef = new WeakReference<>(scanActivity);
         mFrameOrientation = currentFrameOrientation;
         nSetup(mSuppressScan, MIN_FOCUS_SCORE, mUnblurDigits);
+        buildDetectedCard();
 
     }
 
@@ -297,6 +288,7 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
 
     @SuppressWarnings("deprecation")
     boolean resumeScanning(SurfaceHolder holder) {
+        cardDetectionHandler.freeResources();
         Log.v(TAG, "resumeScanning(" + holder + ")");
         if (mCamera == null) {
             Log.v(TAG, "preparing the scanner...");
@@ -465,6 +457,8 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
 
     private int frameCount = 0;
 
+
+    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh-mm-ss:'Z'");
     @Override
     public void onPreviewFrame(byte[] data, Camera camera) {
 
@@ -498,18 +492,26 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
         //initializeThreads();
         nScanFrame(data, mPreviewWidth, mPreviewHeight, mFrameOrientation, dInfo, detectedBitmap, mScanExpiry);
 
+
         boolean sufficientFocus = (dInfo.focusScore >= MIN_FOCUS_SCORE);
 
         if (!sufficientFocus) {
             triggerAutoFocus(false);
         }
 
-        else if (dInfo.predicted() || (mSuppressScan && dInfo.detected())) {
+        else if (dInfo.predicted() || (mSuppressScan && dInfo.detected())){
             Log.d(TAG, "detected card: " + dInfo.creditCard());
+
             mScanActivityRef.get().onCardDetected(detectedBitmap, dInfo);
-        }
-        else if(dInfo.detected()){
-            produceBitmaps(data);
+
+        }else if(dInfo.detected()){
+
+            cardDetectionHandler.getCardUCInstance().setImg(getBitmapFromByteArray(data));
+            fbService.predictPrintedCard( cardDetectionHandler);
+            if(detectedCard.getPredicted()) {
+                mScanActivityRef.get().onCardDetected(detectedCard.getImg(),
+                        this.cardDetectionHandler.getDinfo());
+            }
         }
         // give the image buffer back to the camera, AFTER we're done reading
         // the image.
@@ -707,9 +709,9 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
             getBitmapFromByteArray(data);
         }else {
             try {
-               // bitmapQueue.add(mSelected);
+                // bitmapQueue.add(mSelected);
             } catch (Exception ex) {
-            return;
+                return;
             }
             getBitmapFromByteArray(data);
 
@@ -776,7 +778,7 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
 
 
 
-    public void getBitmapFromByteArray(byte[] data) {
+    public Bitmap getBitmapFromByteArray(byte[] data) {
 
         YuvImage yuvImage;
         ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -788,10 +790,9 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
         options.inJustDecodeBounds = false;
         options.inPreferredConfig = Bitmap.Config.RGB_565;
         options.inDither = true;
-      //  mSelected = BitmapFactory.decodeByteArray(data, 0, data.length,options);
+        //  mSelected = BitmapFactory.decodeByteArray(data, 0, data.length,options);
         mSelected = BitmapFactory.decodeByteArray(imageBytes, 0, imageBytes.length);
         mSelected = RotateBitmap(mSelected,90);
-
 
 
         try {
@@ -804,6 +805,7 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
             out = null;
             yuvImage = null;
             imageBytes = null;
+            return mSelected;
         }
     }
     public static Bitmap RotateBitmap(Bitmap source, float angle)
@@ -811,5 +813,9 @@ class CardScanner implements Camera.PreviewCallback, Camera.AutoFocusCallback,
         Matrix matrix = new Matrix();
         matrix.postRotate(angle);
         return Bitmap.createBitmap(source, 0, 0, source.getWidth(), source.getHeight(), matrix, true);
+    }
+
+    public void buildDetectedCard(){
+        detectedCard = cardDetectionHandler.getCardUCInstance();
     }
 }

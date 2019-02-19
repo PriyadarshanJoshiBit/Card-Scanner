@@ -8,18 +8,19 @@ import io.card.payment.firebase.parser.ParserChain;
 public enum CardFeatures {
     //Mandatory,attempts
     CARDNUM("Card Number",true, 0),
-    CVV("CVV" , false, 0),
+    CVV("CVV" , false, 3),
     EXPIRY("Expiry Date", false,5);
 
-    String name;
-    boolean isMandatory;
-    int atmtsToFindAfterMndtryFlds;
+    public String name;
+    public boolean isMandatory;
+    public int atmtsToFindAfterMndtryFlds;
 
     CardFeatures(String name, boolean isMandatory, int atmtsToFindAfterMndtryFlds ){
-        isMandatory = isMandatory;
-        atmtsToFindAfterMndtryFlds = atmtsToFindAfterMndtryFlds;
-        name = name;
+        this.isMandatory = isMandatory;
+        this.atmtsToFindAfterMndtryFlds = atmtsToFindAfterMndtryFlds;
+        this.name = name;
     }
+
 
    public List<CardFeatures> getMandatoryFeatures(){
         List<CardFeatures> mandatoryFtrs = new ArrayList<CardFeatures>() ;
